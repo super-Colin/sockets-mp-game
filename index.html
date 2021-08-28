@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>A Multiplayer Quiz Game</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/static/game.js"></script>
+  </head>
+  <body>
+
+    <p id="question"></p>
+    <input type="number" id="answer" />
+    <button id="submit" onclick="submitAnswer()">Submit</button>
+    <p id="submittedAnswer"></p>
+    <div id="scoreboard">
+    </div>
+
+  </body>
+  
+</html>
