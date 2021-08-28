@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>A Multiplayer Quiz Game</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/static/gameLobbies.js"></script>
+  </head>
+  <body>
+
+    <div id="lobbyForm">
+      <p id="info">Enter a lobby number</p>
+      <input type="number" id="lobbyNumber" min="0" max="9999" />
+      <button id="submit" onclick="submitLobbyNumber()">Submit</button>
+      <p id="lobbyStatus">Currently not in a lobby</p>
+    </div>
+
+
+    <div id="board">
+    </div>
+
+  </body>
+  
+</html>
